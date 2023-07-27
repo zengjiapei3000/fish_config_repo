@@ -5,5 +5,5 @@ end
 
 # Add at 2023/07/23, for exercism
 function fish_about_exercism
-        set PATH ~/bin:$PATH $PATH
+        set -x PATH ~/bin:$PATH $PATH
 end
